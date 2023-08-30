@@ -1,0 +1,6 @@
+.list__container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 0px;
+}

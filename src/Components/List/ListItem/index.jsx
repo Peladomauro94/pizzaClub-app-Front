@@ -5,11 +5,14 @@ function ListItem({name, image, price, description}) {
   return (
     <div className='listItem__container'>
         <img src={image} alt="" />
-        <div>
-          <span>{name}</span>
-          <span>UYU {price}</span>
+        <div className='listItem__info'>
+          <div>
+            <span>{name}</span>
+            <span>UYU {price}</span>
+          </div>
+          <p>{description}</p>
         </div>
-        <p>{description}</p>
+
     </div>
   )
 }
