@@ -1,0 +1,30 @@
+.navigatorItem__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navigatorItem__container:hover{
+    background-color: #fada908e;
+}
+
+.navigatorItem__border{
+    width: 70%;
+    height: 2px;
+    margin-top: 6px;
+    transition: 400ms;
+    border-radius: 4px;
+    background-color: #000000;
+}
+
+.navigatorItem__border-hidden{
+    width: 0%;
+    height: 2px;
+    margin-top: 6px;
+    transition: 400ms;
+    border-radius: 4px;
+    background-color: transparent;
+}
