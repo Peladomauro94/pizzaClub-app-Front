@@ -2,4 +2,13 @@ body{
     margin: 0px;
     box-sizing: border-box;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.app__container{
+    height: 100vh;
+    display: block;
+    overflow: scroll;
+    position: relative;
 }

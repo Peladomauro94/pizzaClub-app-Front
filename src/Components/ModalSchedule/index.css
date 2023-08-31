@@ -1,0 +1,9 @@
+.modal__schedule{
+    width: 80vw;
+    max-width: 530px ;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}

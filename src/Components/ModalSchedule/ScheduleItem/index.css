@@ -1,0 +1,6 @@
+.scheduleItem__container{
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}

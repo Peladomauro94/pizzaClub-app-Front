@@ -1,4 +1,8 @@
 .main__container{
-    position: sticky;
-    border-radius: 20px;
+    position: relative;
+    border-radius: 40px;
+    margin-top: 1.5rem;
+    top:320px;
+    background-color: white;
+    min-height: calc(100vh - 100px);
 }
